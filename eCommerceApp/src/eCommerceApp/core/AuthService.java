@@ -1,0 +1,9 @@
+package eCommerceApp.core;
+
+import eCommerceApp.entities.concretes.User;
+
+public interface AuthService {
+	void register(User user);
+
+	void login(User user);
+}
